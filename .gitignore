@@ -1,0 +1,10 @@
+# Ignorar archivos compilados
+*.o
+*.exe
+
+# Ignorar directorios de dependencias
+/node_modules
+/venv
+
+# Ignorar archivos temporales de editores
+*.swp
