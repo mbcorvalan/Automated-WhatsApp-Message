@@ -1,6 +1,6 @@
 
 const express = require('express');
-const apiRoute = require('./routes/routes');
+const apiRoute = require('./src/routes/routes');
 const cron = require('node-cron');
 
 const app = express();
