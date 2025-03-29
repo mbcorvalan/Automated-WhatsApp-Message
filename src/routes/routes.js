@@ -1,12 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const whastappController = require('../controllers/whastappController');
+const whatsappController = require('../controllers/whastappController');
 
-
-router
-.get('/', whastappController.VerfiTocken)
-.post('/', whastappController.ReciveMessage);
-
+router.post('/send-message', whatsappController.sendMessage);
 
 module.exports = router;
-
